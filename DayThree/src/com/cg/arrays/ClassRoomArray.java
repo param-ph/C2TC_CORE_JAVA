@@ -11,5 +11,6 @@ public class ClassRoomArray {
 		System.out.println("using for each loop");
 		for(int element: marks)
 			System.out.println(element);
+		System.out.println();
 	}
 }
