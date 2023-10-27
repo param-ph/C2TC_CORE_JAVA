@@ -2,10 +2,10 @@ package com.cg.multithreding;
 class MyMethod extends Thread {
 	public void run() {
 	for(int i=0;i<100;i++) {
-		System.out.println("you are stupid shahd");
-		System.out.println("i love you ");
+		System.out.println("Param");
+		//System.out.println("i love you ");
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(500);
 	  }catch (InterruptedException e) {
 			System.out.println("Interupted Exception Occured");			
 	  }
